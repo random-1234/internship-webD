@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: didot;
+}
+.icon-img{
+    height: 60px;
+    width: 60px;
+
+}
+.box{
+    height: fit-content;
+}
+.guitar-list{
+    display: inline;
+    margin: 0 30px;
+
+}
+.achievements-text{
+    text-align: center;
+}
+.numbers{
+    font-size: 30px;
+    font-weight: bold;
+}
+.list{
+    margin-left: 10px;
+    
+}
+.intro-div{
+    position: relative;
+}
+.intro-h{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+
+
+}
+.intro-p{
+    position: absolute;
+    top: 100px;
+    font-size: 60px;
+    
+}
+.guitar-img{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 750px;
+}
+.about-text{
+    text-align: center;
+    overflow: auto;
+}
+.about-div{
+    float: left;
+    width: 40%;
+}
+.about-h{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+.achievements-div{
+    float: left;
+    width: 40%;
+
+
+}
+.buyers-div{
+    float: left;
+    width: 20%;
+    
+}
+.achievements-text{
+    padding:0 20px ;
+}
+
+@media only screen and (max-width:800px){
+    .about-div,.buyers-div,.achievements-div{
+        width: 100%;
+    }
+    .guitar-img{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width:500px){
+    .about-div,.buyers-div,.achievements-div{
+        width: 100%;
+    }
+    .guitar-img{
+        visibility: hidden;
+    }
+
+}
+.guitar-list:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

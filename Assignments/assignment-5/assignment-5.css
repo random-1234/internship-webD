@@ -1,0 +1,295 @@
+body{
+    margin: 0px;
+    
+    background-color: #242121;
+    color: #F2F2F2;
+}
+img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+.intro-div{
+    position: relative;
+    height: 21.875rem;
+    padding-top: 9rem;
+
+}
+.intro-p-1{
+    width: fit-content;
+    margin: auto;
+    font-size: 1.25rem;
+
+}
+.intro-h1{
+    width: fit-content;
+    margin: 0.9375rem auto;
+    font-size: 3.75rem;
+
+}
+.intro-p-2{
+    width: fit-content;
+    margin: auto;
+    font-size: 1.5625rem;
+}
+.icons{
+    margin: auto;
+    position: absolute;
+    left: 34.375rem;
+    bottom: 3.125rem;
+    width: 25rem;
+    height: 6.25rem;
+
+}
+
+.basic-div{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 6.25rem;
+}
+hr{
+    margin: 0;
+    
+}
+.basic-h1{
+    margin: 0;
+}
+
+.name{
+    margin: 0.75rem;
+    width: 100px;
+}
+.basic-name{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 15.625rem;
+    top: 3.75rem;
+}
+.basic-mail{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 3.75rem;
+    right: 3.125rem;
+}
+.basic-phone{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 3.75rem;
+    left: 5rem;
+
+}
+.basic-insta{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 3.75rem;
+    left: 15.625rem;
+}
+.phone{
+    font-size: 15px;
+    width: 150px;
+}
+.insta-id{
+    margin-top: 13px;
+}
+.about-div{
+    position: relative;
+    height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 6.25rem;
+    
+}
+.about-h2{
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 700px;
+    text-decoration: underline;
+    
+}
+.about-p{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    padding-left: 500px;
+}
+.skills-div{
+    position: relative;
+    height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 6.25rem;
+}
+.skills-h{
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 725px;
+    text-decoration: underline;
+
+}
+table{
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 20px;
+}
+td{
+    padding: 20px 40px ;
+
+}
+.table-heading{
+    text-align: right;
+    font-weight: bold;
+}
+.education-div{
+    position: relative;
+    height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 6.25rem;
+
+}
+.education-h{
+    margin: 50px 0 0 0px;
+    padding-top: 80px;
+    padding-left: 700px;
+    text-decoration: underline;
+}
+.education-table{
+    margin-top: 0px;
+    padding-left: 550px;
+}
+.education-dates{
+    text-align: right;
+    font-weight: bold;
+}
+.academics-div{
+    position: relative;
+    height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 6.25rem;
+
+}
+.academics-h{
+    margin: 50px 0 0 0px;
+    padding-top: 90px;
+    padding-left: 700px;
+    text-decoration: underline;
+
+}
+.academics-t{
+    margin-top: 0px;
+    padding-left: 625px;
+}
+.right-align{
+    font-weight: bold;
+}
+.interests-div{
+    position: relative;
+    height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 2.25rem;
+
+}
+.interests-h{
+    margin: 50px 0 0 0px;
+    padding-top: 90px;
+    padding-left: 700px;
+    text-decoration: underline;
+
+}
+.interests-l{
+    padding: 10px;
+    margin-left: 660px;
+}
+.interests-li{
+    padding: 4px;
+    font-weight: bold;
+}
+.programming-img{
+    height: 300px;
+    width: 300px;
+    right: 50px;
+    top: 50px;
+}
+.academics-img{
+    height: 300px;
+    width:300px;
+    top: 1070px;
+    left: 180px;
+}
+.web-img{
+    height: 300px;
+    width: 300px;
+    top: 600px;
+}
+.analysis{
+    height: 300px;
+    width: 300px;
+    top: 1900px;
+    left: 100px;
+}
+.branding{
+    top: 1800px;
+    right: 50px;
+    height: 400px;
+    width: 400px;
+}
+.blackboard{
+    right: 30px;
+    top: 900px;
+}
+.research{
+    top: 200px;
+    left: 20px;
+}
+.about-me{
+    top:750px;
+    left: 60px;
+}
+.contact-us{
+    height: 330px;
+    width: 330px;
+    top: 500px;
+    right: 55px;
+}
+.report{
+    top: 1300px;
+    right: 170px;
+}
+.concept{
+    top: 1225px;
+    left: 200px;
+}
+.code{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 30px;
+    left: 430px;
+    transform: rotate(-10deg);
+
+}
+.basic-name:hover,.basic-mail:hover,.basic-insta:hover,.basic-phone:hover{
+    background-color: #F2F2F2;
+    color: #242121;
+    cursor: pointer;
+
+}
+.basic-mail:hover,.basic-insta:hover,.basic-phone:hover{
+    text-decoration: underline;
+}
+.web{
+    top: 600px;
+    right: 30px;
+}
+.web-design{
+    top: 1000px;
+    right: 200px;
+    height: 110px;
+    width: 110px;
+    transform: rotate(10deg);
+}
+

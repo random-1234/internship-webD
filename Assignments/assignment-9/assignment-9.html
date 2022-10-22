@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery-store</title>
+    <link rel="stylesheet" href="assignment-9.css">
+</head>
+<body>
+    <h1>Grocery Store</h1>
+    <div class="input-div">
+    <table class="input-table">
+        <tr>
+            <th class="input-th"> Item Name: </th>
+            <td><input type="text"  id="item-name"></td>
+        </tr>
+        <tr>
+            <th class="input-th">Quantity: </th>
+            <td><input type="text" id="quantity-input"></td>
+        </tr>
+        <tr>
+            <th class="input-th">Item Code: </th>
+            <td><input type="text" id="item-code-input"></td>
+        </tr>
+        <tr>
+            <th class="input-th">Item Price: </th>
+            <td><input type="text" id="item-price"></td>
+        </tr>
+    </table>
+    <br>
+    <button type="button" id="add">ADD</button>
+    <button type="button" id="calculate">CALCULATE</button>
+    </div>
+    <div class="output-div">
+    <table  class="table" id="output-table">
+        <tr class="table">
+            <th class="table">Item</th>
+            <th class="table">Quantity</th>
+            <th class="table">Item Code</th>
+            <th class="table">Item Price</th>
+        </tr>
+    </table>
+    <p class="amount"></p>
+    </div>
+    <script src="assignment-9.js"></script>
+</body>
+</html>
