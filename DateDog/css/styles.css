@@ -1,0 +1,149 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+
+}
+
+.container-fluid{
+    padding: 5% 10% 13%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#id{
+    color: aliceblue;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.title{
+    padding-top: 5%;
+}
+.nav-item{
+    padding: 0 1.5rem;
+}
+.nav-link{
+    font-size: 1.1rem;
+}
+
+.buttons-div{
+    margin-top: 6%;
+}
+#playstore{
+    margin-left: 1rem;
+}
+.dog-img-div{
+    position: relative;
+}
+.dog-img{
+    width: 60%;
+    position: absolute;
+
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .dog-img{
+        position: static;
+        transform: rotate(0);
+    }
+    .buttons-div{
+        padding-bottom: 10%;
+    }
+}
+
+/* Features */
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+}
+.features{
+    padding: 7%;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    color: #8f8f8f;
+}
+.features-img{
+    font-size: 3.5rem;
+    color: #ef8172; 
+    display: flex; 
+    justify-content: center; 
+    padding: 1rem;
+
+}
+.features-img:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+h2{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+   font-family: "Montserrat-Bold";
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+}
+.pricing-cards{
+    margin: 10% 2%;
+}
+
+/* Call to action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding-bottom: 8%;
+}
+.cta-h{
+    font-size: 3rem;
+    padding: 7% 15% 0;
+}
+/* footer */
+#footer{
+    background-color: #ffff;
+    text-align: center;
+    padding: 3%;
+}
+.social-icons{
+    padding: 10px;
+}
+table{
+    margin: auto;
+}
+td{ padding: 10px;}
